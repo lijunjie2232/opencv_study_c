@@ -42,6 +42,9 @@
     <ClCompile Include="area_detect.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="pic_op.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="show_version.h">
@@ -66,6 +69,9 @@
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="area_detect.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="pic_op.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
   </ItemGroup>

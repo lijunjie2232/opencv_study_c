@@ -12,6 +12,7 @@
 #include "show_pic.h"
 #include "format_conv.h"
 #include "area_detect.h"
+#include "pic_op.h"
 
 int main(int argc, char** argv)
 {
@@ -19,8 +20,11 @@ int main(int argc, char** argv)
     //char* path = new char[100];
     //std::cin >> path;
     
-    //const char* path = (const char*)"F:\\c++\\opencv\\demo1\\demo1\\res\\p1.bmp";
-    //cv::Mat src = load_pic(path, 1);
+    const char* path_1 = (const char*)"F:\\c++\\opencv\\demo1\\demo1\\res\\p1.jpg";
+    cv::Mat src = load_pic(path_1, 1);
+
+    const char* path_2 = (const char*)"F:\\c++\\opencv\\demo1\\demo1\\res\\p1_rgb.jpg";
+    cv::Mat src_new = load_pic(path_2, 1);
     //show_pic(src);
 
     // 
@@ -37,7 +41,8 @@ int main(int argc, char** argv)
     //cv::Mat yuv = toYuv(src, "F:\\c++\\opencv\\demo1\\demo1\\res\\p1.yuv");
     //cv::Mat rgb = toRgb(src, "F:\\c++\\opencv\\demo1\\demo1\\res\\p1_rgb.jpg");
 
-    /*show_pic(src);
+    /*图像工程第二次作业
+    show_pic(src);
     cv::Mat yuv = toYuv(src);
     show_pic(yuv);
     cv::Mat rgb = toRgb(src);
@@ -65,6 +70,7 @@ int main(int argc, char** argv)
 
     show_pic(frames_rec);*/
 
+    pic_op(src, src_new);
 
 
     return 0;

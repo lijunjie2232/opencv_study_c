@@ -145,6 +145,7 @@
     <ClCompile Include="format_conv.cpp" />
     <ClCompile Include="load_pic.cpp" />
     <ClCompile Include="new_pic.cpp" />
+    <ClCompile Include="pic_op.cpp" />
     <ClCompile Include="pixel_op.cpp" />
     <ClCompile Include="show_pic.cpp" />
     <ClCompile Include="show_version.cpp" />
@@ -155,6 +156,7 @@
     <ClInclude Include="filter.h" />
     <ClInclude Include="load_pic.h" />
     <ClInclude Include="new_pic.h" />
+    <ClInclude Include="pic_op.h" />
     <ClInclude Include="pixel_op.h" />
     <ClInclude Include="show_pic.h" />
     <ClInclude Include="show_version.h" />
